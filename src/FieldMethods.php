@@ -6,39 +6,41 @@ include 'StreakClient.php';
 /*					   FIELD OPERATIONS						  *	
 /**************************************************************/
 
-class FieldMethods {
-
 	//List all the Fields in a pipeline
-	public function listAllFields($pipelineKey) {
-		$requestURL = $baseURL."/pipelines/{".$pipelineKey."}/fields -u ".$apiKey
-		sendGetRequest($requestURL)
+	function listAllFields($pipelineKey) {
+		$requestURL =baseURL."/pipelines/{".$pipelineKey."}/fields -u ".apiKey;
+		$data = sendGetRequest($requestURL);
+        return $data;
 	}
 
 	//Specific Fields in a pipeline 
-	public function getSpecificField($pipelineKey, $fieldKey) {
-		$requestURL = $baseURL."/pipelines/{".$pipelineKey."}/fields/{".$fieldKey."} -u ".$apiKey
-		sendGetRequest($requestURL)
+	function getSpecificField($pipelineKey, $fieldKey) {
+		$requestURL = baseURL."/pipelines/{".$pipelineKey."}/fields/{".$fieldKey."} -u ".apiKey;
+		$data = sendGetRequest($requestURL);
+        return $data;
 	}
 
 	//Create Field in a pipeline
-	public function createField($pipelineKey,$fieldName,$textInput) {
-		$inputData = array("name" => $stageName,
+	function createField($pipelineKey,$fieldName,$textInput) {
+		$inputData = array("name" => $fieldName,
 						   "type" => $textInput
 			);
-		$requestURL = $baseURL."/pipelines/{".$pipelineKey."/fields -u ".$apiKey
-		sendPutRequest($inputData,$requestURL)
+		$requestURL = baseURL."/pipelines/{".$pipelineKey."/fields -u ".apiKey;
+		$data = sendPutRequest($inputData,$requestURL);
+        return $data;
 	}
 
 	//Delete Field in Pipeline
-	public function deleteField($pipelineKey, $fieldKey) {
-		$requestURL = $baseURL."/pipelines/{".$pipelineKey."/fields/{".$fieldKey."} -u ".$apiKey
-		sendDeleteRequest($requestURL)
+	function deleteField($pipelineKey, $fieldKey) {
+		$requestURL = baseURL."/pipelines/{".$pipelineKey."/fields/{".$fieldKey."} -u ".apiKey;
+		$data = sendDeleteRequest($requestURL);
+        return $data;
 	}
 
 	//Edit a Field 
-	public function editField($pipelineKey, $fieldKey, $fieldName) {
+	function editField($pipelineKey, $fieldKey, $fieldName) {
 		$inputData = array("name"=>$fieldName);
-		$requestURL = $baseURL."/pipelines{".$pipelineKey."}/fields/{".$filedKey."}"
-		sendPostRequest($inputData, $requestURL)
+		$requestURL = baseURL."/pipelines{".$pipelineKey."}/fields/{".$fieldKey."}";
+		$data = sendPostRequest($inputData, $requestURL);
+        return $data;
 	}
-}

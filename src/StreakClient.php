@@ -8,30 +8,27 @@
 	But you see, I can't wait. So lets build a client out of it which does it all.
 */
 
+    define("apiKey","516572204c584c259617eee0465f6cde");
+    define("baseURL","https://www.streak.com/api/v1");
 
-// TODO: Remember to write individual functions for getting the Pipeline Key and the Box Key and the Stage Key.
 
-public $apiKey = $_GET['apiKey'];
-public $baseURL = "https://www.streak.com/api/v1/";
-
-class StreakClient {
-	
 	// Fucnction to send request to fetch the JSON response. 
-	public function sendGetRequest($url) {
+	function sendGetRequest($url) {
 		$curlSession = curl_init();
 		curl_setopt($curlSession, CURLOPT_URL, $url);
-			
+
 		$data = curl_exec($curlSession);
 		$resultCode = curl_getinfo($curlSession, CURLINFO_HTTP_CODE);
+        curl_close($curlSession);
 
 		if($resultCode == 200)
 			return $data;
-		else 
-			return $resultCode
+		else
+			return $resultCode;
 	}
 
 	// Function to send a Delete CURL request
-	public function sendDeleteRequest($url) {
+	function sendDeleteRequest($url) {
 		$curlSession = curl_init();
 		curl_setopt($curlSession, CURLOPT_URL, $url);
 		curl_setopt($curlSession, CURLOPT_CUSTOMREQUEST, 'DELETE');
@@ -46,7 +43,7 @@ class StreakClient {
 	}
 
 	// Function to send Data with the request
-	public function sendPutRequest($params,$url) {
+	function sendPutRequest($params,$url) {
 		
 		$putData = '';
 		foreach($params as $k => $v) {
@@ -57,7 +54,8 @@ class StreakClient {
 		$curlSession = curl_init();
 		curl_setopt($curlSession, CURLOPT_CUSTOMREQUEST, "PUT");
 		curl_setopt($curlSession, CURLOPT_RETURNTRANSFER, true);
-		curl_setopt($curlSession, CURLOPT_POSTFIELDS, http_build_query($putdata));
+		curl_setopt($curlSession, CURLOPT_POSTFIELDS, http_build_query($putData));
+
 		curl_setopt($curlSession, CURLOPT_URL, $url);
 
 		$data = curl_exec($curlSession);
@@ -70,7 +68,7 @@ class StreakClient {
 	}
 
 	//Function to send Data using POST with the request
-	public function sendPostRequest($params, $url) {
+	function sendPostRequest($params, $url) {
 		
 		$postData = '';
 		foreach($params as $k => $v) {
@@ -93,6 +91,11 @@ class StreakClient {
 		}
 		else 
 			return $resultCode;
-	}
-}
+    }
+
+    //Testing the request methods.
+    echo sendGetRequest("https://www.streak.com/api/v1/users/me -u 516572204c584c259617eee0465f6cde");
+
+
+
 	

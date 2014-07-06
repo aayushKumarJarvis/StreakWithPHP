@@ -4,25 +4,17 @@ include 'StreakClient.php';
 include 'PipelineMethods.php';
 include 'BoxMethods.php';
 include 'StageMethods.php';
-include 'FieldMethods.php'
+include 'FieldMethods.php';
 
 /* The pipeline, stage and field access require their individual keys. 
    This Class code aims at extracting each of the individual keys so to be used in method classes. 
 */
+    define("errorMessage","Sorry! Not Found");
 
-$pipelineObject = new PipelineMethods;
-$boxObject = new BoxMethods;
-$stageObject = new StageMethods;
-$fieldObject = new FieldMethods;
-
-public $errorMessage = "Sorry! Not Found"l
-
-class GetTokenKeys {
-
-	public function getPipelineKey($nameOfThePipeline) {
+	function getPipelineKey($nameOfThePipeline) {
 
 		$userPipelineKey = "";
-		$userPipelines = json_decode($pipelineObject->getUserPipelines(),true);
+		$userPipelines = json_decode(getUserPipelines(),true);
 
 		for($i=0; $i<count($userPipelines['name']);$i++) {
 			if(strtolower($userPipelines[$i]['name']) == strtolower($nameOfThePipeline)) 
@@ -32,15 +24,15 @@ class GetTokenKeys {
 		if($userPipelineKey)
 			return $userPipelineKey;
 		else 
-			return $errorMessage;
+			return errorMessage;
 	}
 
-	public function getBoxKey($nameOfThePipeline, $nameOfTheBox) {
+	function getBoxKey($nameOfThePipeline, $nameOfTheBox) {
 
 		$userPipelineKey = getPipelineKey($nameOfThePipeline);
 
 		$userBoxKey = "";
-		$userBoxes = json_decode($boxObject->getAllBoxesFromPipeline($userPipelineKey));
+		$userBoxes = json_decode(getAllBoxesFromPipeline($userPipelineKey));
 
 		for($i=0; $i<count($userBoxes['name']);$i++) {
 			if(strtolower($userBoxes[$i]['name']) == strtolower($nameOfTheBox))
@@ -50,15 +42,15 @@ class GetTokenKeys {
 		if($userBoxKey)
 			return $userBoxKey;
 		else
-			return $errorMessage;
+			return errorMessage;
 	}
 
-	public function getStageKey($nameOfThePipeline, $nameOfTheStage) {
+	function getStageKey($nameOfThePipeline, $nameOfTheStage) {
 
 		$userPipelineKey = getPipelineKey($nameOfThePipeline);
 
 		$userStageKey = "";
-		$userStages = json_decode($stageObject->lisAllStages($userPipelineKey));
+		$userStages = json_decode(listAllStages($userPipelineKey));
 
 		for($i=0; $i<count($userStages['name']);$i++) {
 			if(strtolower($userStages[$i]['name']) == strtolower($nameOfTheStage))
@@ -68,15 +60,15 @@ class GetTokenKeys {
 		if($userStageKey)
 			return $userStageKey;
 		else 
-			return $errorMessage;
+			return errorMessage;
 	}
 
-	public function getFieldKey($nameOfThePipeline, $nameOfTheField) {
+	function getFieldKey($nameOfThePipeline, $nameOfTheField) {
 
 		$userPipelineKey = getPipelineKey($nameOfThePipeline);
 
 		$userFieldKey = "";
-		$userFields = json_decode($fieldObject->listAllFields($userPipelineKey));
+		$userFields = json_decode(listAllFields($userPipelineKey));
 
 		for($i=0; $i<count($userFields['name']);$i++) {
 			if(strtolower($userFields[$i]['name']) == strtolower($nameOfTheField))
@@ -86,7 +78,6 @@ class GetTokenKeys {
 		if($userFieldKey)
 			return $userFieldKey;
 		else
-			return $errorMessage;
+			return errorMessage;
 
 	}
-}

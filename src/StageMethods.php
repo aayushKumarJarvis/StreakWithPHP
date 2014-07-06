@@ -6,37 +6,41 @@ include 'StreakClient.php';
 /*					   STAGE OPERATIONS						  *	
 /**************************************************************/
 
-class StageMethods {
 
 	//List all the stages in a pipeline
-	public function listAllStages($pipelineKey) {
-		$requestURL = $baseURL."/pipelines/{".$pipelineKey."}/stages -u ".$apiKey
-		sendGetRequest($requestURL)
+	function listAllStages($pipelineKey) {
+		$requestURL = baseURL."/pipelines/{".$pipelineKey."}/stages -u ".apiKey;
+		$data = sendGetRequest($requestURL);
+        return $data;
 	}
 
 	//Specific Stages in a pipeline 
-	public function getSpecificStage($pipelineKey, $stageKey) {
-		$requestURL = $baseURL."/pipelines/{".$pipelineKey."}/stages/{".$stageKey."} -u ".$apiKey
-		sendGetRequest($requestURL)
+	function getSpecificStage($pipelineKey, $stageKey) {
+		$requestURL = baseURL."/pipelines/{".$pipelineKey."}/stages/{".$stageKey."} -u ".apiKey;
+		$data = sendGetRequest($requestURL);
+        return $data;
 	}
 
 	//Create Stage in a pipeline
-	public function createStage($pipelineKey,$stageName) {
+	function createStage($pipelineKey,$stageName) {
 		$inputData = array("name" => $stageName);
-		$requestURL = $baseURL."/pipelines/{".$pipelineKey."/stages -u ".$apiKey
-		sendPutRequest($inputData,$requestURL)
+		$requestURL = baseURL."/pipelines/{".$pipelineKey."/stages -u ".apiKey;
+		$data = sendPutRequest($inputData,$requestURL);
+        return $data;
 	}
 
 	//Delete Stage in Pipeline
-	public function deleteStage($pipelineKey, $stageKey) {
-		$requestURL = $baseURL."/pipelines/{".$pipelineKey."/stages/{".$stageKey."} -u ".$apiKey
-		sendDeleteRequest($requestURL)
+	function deleteStage($pipelineKey, $stageKey) {
+		$requestURL = baseURL."/pipelines/{".$pipelineKey."/stages/{".$stageKey."} -u ".apiKey;
+		$data = sendDeleteRequest($requestURL);
+        return $data;
 	}
 
 	//Edit a Pipeline 
-	public function editStage($pipelineKey, $stageKey, $stageName) {
+	function editStage($pipelineKey, $stageKey, $stageName) {
 		$inputData = array("name"=>$stageName);
-		$requestURL = $baseURL."/pipelines{".$pipelineKey."}/stages/{".$stageKey."}"
-		sendPostRequest($inputData, $requestURL)
+		$requestURL = baseURL."/pipelines{".$pipelineKey."}/stages/{".$stageKey."}";
+		$data = sendPostRequest($inputData, $requestURL);
+        return $data;
 	}
-}
+
