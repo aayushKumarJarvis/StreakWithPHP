@@ -8,15 +8,16 @@
 	But you see, I can't wait. So lets build a client out of it which does it all.
 */
 
-    define("apiKey","516572204c584c259617eee0465f6cde");
+    define("apiKey","YOUR API KEY");
     define("baseURL","https://www.streak.com/api/v1");
-
+    define("password","YOUR GMAIL PASSWORD");
 
 	// Fucnction to send request to fetch the JSON response. 
 	function sendGetRequest($url) {
 		$curlSession = curl_init();
 		curl_setopt($curlSession, CURLOPT_URL, $url);
-
+		curl_setopt($curlSession, CURLOPT_USERPWD,apiKey.":".password);
+		
 		$data = curl_exec($curlSession);
 		$resultCode = curl_getinfo($curlSession, CURLINFO_HTTP_CODE);
         curl_close($curlSession);
@@ -32,7 +33,8 @@
 		$curlSession = curl_init();
 		curl_setopt($curlSession, CURLOPT_URL, $url);
 		curl_setopt($curlSession, CURLOPT_CUSTOMREQUEST, 'DELETE');
-
+		curl_setopt($curlSession, CURLOPT_USERPWD,apiKey.":".password);
+		
 		$data = curl_exec($curlSession);
 		$resultCode = curl_getinfo($curlSession,CURLINFO_HTTP_CODE);
 
@@ -55,7 +57,8 @@
 		curl_setopt($curlSession, CURLOPT_CUSTOMREQUEST, "PUT");
 		curl_setopt($curlSession, CURLOPT_RETURNTRANSFER, true);
 		curl_setopt($curlSession, CURLOPT_POSTFIELDS, http_build_query($putData));
-
+		curl_setopt($curlSession, CURLOPT_USERPWD,apiKey.":".password);
+		
 		curl_setopt($curlSession, CURLOPT_URL, $url);
 
 		$data = curl_exec($curlSession);
@@ -82,7 +85,8 @@
 		curl_setopt($curlSession, CURLOPT_HTTPHEADER, "Content-Type: application/json");
 		curl_setopt($curlSession, CURLOPT_POST, count($postData));
 		curl_setopt($curlSession, CURLOPT_POSTFIELDS, $postData);
-
+		curl_setopt($curlSession, CURLOPT_USERPWD,apiKey.":".password);
+		
 		$outputData = curl_exec($curlSession);
 		$resultCode = curl_getinfo($curlSession, CURLINFO_HTTP_CODE);
 
