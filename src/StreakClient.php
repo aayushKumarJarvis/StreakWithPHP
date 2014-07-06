@@ -98,7 +98,7 @@
     }
 
     //Testing the request methods.
-    echo sendGetRequest("https://www.streak.com/api/v1/users/me -u 516572204c584c259617eee0465f6cde");
+    echo sendGetRequest("https://www.streak.com/api/v1/users/me -u YOUR API KEY");
 
 
 
