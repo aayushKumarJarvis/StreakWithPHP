@@ -14,7 +14,7 @@
     define("PASSWORD","monostablene5555");
 
 
-	// Fucnction to send request to fetch the JSON response. 
+	// Fucnction to send request to fetch the JSON response.
 	function sendGetRequest($url) {
 		$curlSession = curl_init();
 		curl_setopt($curlSession, CURLOPT_URL, $url);
@@ -64,7 +64,7 @@
 
 		if($resultCode == 200)
 			return $data;
-		else 
+		else
 			return $resultCode;
 	}
 
@@ -89,7 +89,7 @@
 		if($resultCode == 200) {
 			return $outputData;
 		}
-		else 
+		else
 			return $resultCode;
     }
 
