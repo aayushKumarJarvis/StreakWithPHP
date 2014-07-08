@@ -1,0 +1,7 @@
+
+// Testing to create a pipeline using PUT Method
+//echo createPipeline("Aayush","Test Pipeline is being made");
+//echo editPipeline("newProductDevelopment","newDescription",getPipelineKey("newAayush"));
+
+//echo listAllStages(getPipelineKey("newProductDevelopment"));
+//echo createStage(getPipelineKey("newProductDevelopment"),"Final Stage");

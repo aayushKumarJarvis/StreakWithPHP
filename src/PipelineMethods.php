@@ -1,6 +1,6 @@
 <?php
 
-include 'StreakClient.php';
+include_once 'StreakClient.php';
 
 /**************************************************************
 /*					PIPELINE OPERATIONS						  *	
@@ -8,24 +8,22 @@ include 'StreakClient.php';
 
 // Will fetch the current user with the input API Key
 	function getCurrentUser() {
-		$requestURL = baseURL."/users/me -u ".apiKey;
-        echo $requestURL;
-		$data = sendGetRequest($requestURL);
+		$requestURL = baseURL."/users/me";
+        $data = sendGetRequest($requestURL);
         return $data;
 	}
 
 
 	// Get all the pipelines for that user
 	function getUserPipelines() {
-		$requestURL = baseURL."/pipelines -u ".apiKey;
-        echo $requestURL;
+		$requestURL = baseURL."/pipelines";
         $data = sendGetRequest($requestURL);
         return $data;
 	}
 
 	// Get Specific pipeline out of the all the pipelines 
 	function getSpecificPipeline($pipelineKey) {
-		$requestURL = baseURL."/pipelines/{".$pipelineKey."} -u ".apiKey;
+		$requestURL = baseURL."/pipelines/".$pipelineKey;
         $data = sendGetRequest($requestURL);
         return $data;
 	}
@@ -37,14 +35,14 @@ include 'StreakClient.php';
 					  "description" => $description
 			);
 
-		$requestURL = baseURL."/pipelines -u ".apiKey;
+		$requestURL = baseURL."/pipelines";
         $data = sendPutRequest($inputData, $requestURL);
         return $data;
 	}
 
 	// Delete a Pipeline of the user
 	function deletePipeline($pipelineKey) {
-		$requestURL = baseURL."/pipelines/{".$pipelineKey."} -u ".apiKey;
+		$requestURL = baseURL."/pipelines/".$pipelineKey;
         $data = sendDeleteRequest($requestURL);
         return $data;
 	}
@@ -56,7 +54,8 @@ include 'StreakClient.php';
 					  	   "description" => $newDescription
 			);
 
-		$requestURL = baseURL."/pipelines/{".$pipelineKey."} -u ".apiKey;
+		$requestURL = baseURL."/pipelines/".$pipelineKey;
+        echo $requestURL;
         $data = sendPostRequest($inputData,$requestURL);
         return $data;
 	}

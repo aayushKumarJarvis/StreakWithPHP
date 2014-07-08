@@ -1,10 +1,10 @@
 <?php
 
-include 'StreakClient.php';
-include 'PipelineMethods.php';
-include 'BoxMethods.php';
-include 'StageMethods.php';
-include 'FieldMethods.php';
+include_once 'StreakClient.php';
+include_once 'PipelineMethods.php';
+include_once 'BoxMethods.php';
+include_once 'StageMethods.php';
+include_once 'FieldMethods.php';
 
 /* The pipeline, stage and field access require their individual keys. 
    This Class code aims at extracting each of the individual keys so to be used in method classes. 
@@ -14,11 +14,12 @@ include 'FieldMethods.php';
 	function getPipelineKey($nameOfThePipeline) {
 
 		$userPipelineKey = "";
-		$userPipelines = json_decode(getUserPipelines(),true);
+		$userPipelines = json_decode(getUserPipelines());
 
-		for($i=0; $i<count($userPipelines['name']);$i++) {
-			if(strtolower($userPipelines[$i]['name']) == strtolower($nameOfThePipeline)) 
-				$userPipelineKey = $userPipelines[$i]['pipelineKey'];
+        for($i=0; $i<count($userPipelines);$i++) {
+			if(strtolower($userPipelines[$i]->name) == strtolower($nameOfThePipeline)) {
+               $userPipelineKey = $userPipelines[$i]->pipelineKey;
+            }
 		}
 
 		if($userPipelineKey)
@@ -32,13 +33,12 @@ include 'FieldMethods.php';
 		$userPipelineKey = getPipelineKey($nameOfThePipeline);
 
 		$userBoxKey = "";
-		$userBoxes = json_decode(getAllBoxesFromPipeline($userPipelineKey));
-
-		for($i=0; $i<count($userBoxes['name']);$i++) {
-			if(strtolower($userBoxes[$i]['name']) == strtolower($nameOfTheBox))
-				$userBoxKey = $userBoxes[$i]['boxKey'];
-		}
-
+		$userBoxes = json_decode(getAllBoxesFromPipeline($userPipelineKey),true);
+        for($i=0; $i<count($userBoxes);$i++) {
+            if(strtolower($userBoxes[$i]['name']) == strtolower($nameOfTheBox)) {
+                $userBoxKey = $userBoxes[$i]['boxKey'];
+            }
+        }
 		if($userBoxKey)
 			return $userBoxKey;
 		else
@@ -47,17 +47,20 @@ include 'FieldMethods.php';
 
 	function getStageKey($nameOfThePipeline, $nameOfTheStage) {
 
-		$userPipelineKey = getPipelineKey($nameOfThePipeline);
+        // Seems this one is a bit tight.
+
+       	$userPipelineKey = getPipelineKey($nameOfThePipeline);
 
 		$userStageKey = "";
-		$userStages = json_decode(listAllStages($userPipelineKey));
+		$userStages = json_decode(listAllStages($userPipelineKey),true);
 
-		for($i=0; $i<count($userStages['name']);$i++) {
-			if(strtolower($userStages[$i]['name']) == strtolower($nameOfTheStage))
-				$userStageKey = $userStages[$i]['key'];
-		}
-
-		if($userStageKey)
+        $counter=count($userStages);
+        while($counter!=0) {
+            if(strtolower($userStages[($counter+5000)]['name']) == strtolower($nameOfTheStage))
+                $userStageKey = $userStages[($counter+5000)]['key'];
+            $counter = $counter-1;
+        }
+       	if($userStageKey)
 			return $userStageKey;
 		else 
 			return errorMessage;
@@ -70,9 +73,9 @@ include 'FieldMethods.php';
 		$userFieldKey = "";
 		$userFields = json_decode(listAllFields($userPipelineKey));
 
-		for($i=0; $i<count($userFields['name']);$i++) {
-			if(strtolower($userFields[$i]['name']) == strtolower($nameOfTheField))
-				$userFieldKey = $userFields[$i]['key'];
+		for($i=0; $i<count($userFields);$i++) {
+			if(strtolower($userFields[$i]->name) == strtolower($nameOfTheField))
+				$userFieldKey = $userFields[$i]->key;
 		}
 
 		if($userFieldKey)
@@ -81,3 +84,4 @@ include 'FieldMethods.php';
 			return errorMessage;
 
 	}
+

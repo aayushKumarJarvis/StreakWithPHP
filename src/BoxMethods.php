@@ -1,6 +1,6 @@
 <?php
 
-include 'StreakClient.php';
+include_once 'StreakClient.php';
 
 /**************************************************************
 /*					   BOX OPERATIONS						  *	
@@ -8,22 +8,22 @@ include 'StreakClient.php';
 
 
 	//Function to List all Boxes a user has access to 
-	function getBoxes() {
-		$requestURL = baseURL."/boxes -u".apiKey;
+	function listAllBoxes() {
+		$requestURL = baseURL."/boxes";
 		$data = sendGetRequest($requestURL);
         return $data;
 	}
 
 	//Function to list all boxes in a pipeline
 	function getAllBoxesFromPipeline($pipelineKey) {
-		$requestURL = baseURL."/pipelines/{".$pipelineKey."}/boxes -u".apiKey;
+		$requestURL = baseURL."/pipelines/".$pipelineKey."/boxes";
 		$data = sendGetRequest($requestURL);
         return $data;
 	}
 
 	//Function to get a specific box 
 	function getSpecificBox($boxKey) {
-		$requestURL = baseURL."/boxes{".$boxKey."} -u".apiKey;
+		$requestURL = baseURL."/boxes/".$boxKey;
 		$data = sendGetRequest($requestURL);
         return $data;
 	}
@@ -31,14 +31,14 @@ include 'StreakClient.php';
 	//Function to create a box
 	function createBox($pipelineKey, $newBox) {
 		$inputData = array("name" => $newBox);
-		$requestURL = baseURL."/pipelines/{".$pipelineKey."}/boxes -u ".apiKey;
+		$requestURL = baseURL."/pipelines/".$pipelineKey."/boxes";
 		$data = sendPutRequest($inputData,$requestURL);
         return $data;
 	}
 
 	//Function to Delete Box 
     function deleteBox($boxKey) {
-		$requestURL = baseURL."/boxes/{".$boxKey."} -u ".apiKey;
+		$requestURL = baseURL."/boxes/".$boxKey;
 		$data = sendDeleteRequest($requestURL);
         return $data;
 	}
@@ -50,7 +50,7 @@ include 'StreakClient.php';
 						   "stageKey" => $stageKey
 			);
 
-		$requestURL = baseURL."/boxes{".$boxKey."} -u ".apiKey;
+		$requestURL = baseURL."/boxes/".$boxKey;
 		$data = sendPostRequest($inputData,$requestURL);
         return $data;
 	}

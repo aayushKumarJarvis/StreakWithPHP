@@ -1,6 +1,6 @@
 <?php
 
-include 'StreakClient.php';
+include_once 'StreakClient.php';
 
 /**************************************************************
 /*					   STAGE OPERATIONS						  *	
@@ -9,14 +9,14 @@ include 'StreakClient.php';
 
 	//List all the stages in a pipeline
 	function listAllStages($pipelineKey) {
-		$requestURL = baseURL."/pipelines/{".$pipelineKey."}/stages -u ".apiKey;
+		$requestURL = baseURL."/pipelines/".$pipelineKey."/stages";
 		$data = sendGetRequest($requestURL);
         return $data;
 	}
 
 	//Specific Stages in a pipeline 
 	function getSpecificStage($pipelineKey, $stageKey) {
-		$requestURL = baseURL."/pipelines/{".$pipelineKey."}/stages/{".$stageKey."} -u ".apiKey;
+		$requestURL = baseURL."/pipelines/".$pipelineKey."/stages/".$stageKey;
 		$data = sendGetRequest($requestURL);
         return $data;
 	}
@@ -24,14 +24,14 @@ include 'StreakClient.php';
 	//Create Stage in a pipeline
 	function createStage($pipelineKey,$stageName) {
 		$inputData = array("name" => $stageName);
-		$requestURL = baseURL."/pipelines/{".$pipelineKey."/stages -u ".apiKey;
+		$requestURL = baseURL."/pipelines/".$pipelineKey."/stages";
 		$data = sendPutRequest($inputData,$requestURL);
         return $data;
 	}
 
 	//Delete Stage in Pipeline
 	function deleteStage($pipelineKey, $stageKey) {
-		$requestURL = baseURL."/pipelines/{".$pipelineKey."/stages/{".$stageKey."} -u ".apiKey;
+		$requestURL = baseURL."/pipelines/".$pipelineKey."/stages/".$stageKey."";
 		$data = sendDeleteRequest($requestURL);
         return $data;
 	}
@@ -39,7 +39,7 @@ include 'StreakClient.php';
 	//Edit a Pipeline 
 	function editStage($pipelineKey, $stageKey, $stageName) {
 		$inputData = array("name"=>$stageName);
-		$requestURL = baseURL."/pipelines{".$pipelineKey."}/stages/{".$stageKey."}";
+		$requestURL = baseURL."/pipelines/".$pipelineKey."/stages/".$stageKey."";
 		$data = sendPostRequest($inputData, $requestURL);
         return $data;
 	}
