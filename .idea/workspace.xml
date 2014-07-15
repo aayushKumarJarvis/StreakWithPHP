@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d320a4f-eb7c-4220-a551-2c8a598a0d6a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/StreakClient.php" afterPath="$PROJECT_DIR$/src/StreakClient.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="streakApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -13,6 +15,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/streakApplication$curlRequests.coverage" NAME="curlRequests Coverage Results" MODIFIED="1405429503589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -25,10 +30,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PipelineMethods.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="PipelineMethods.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PipelineMethods.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="33" selection-start="470" selection-end="470" vertical-scroll-proportion="0.27214515" vertical-offset="0" max-vertical-offset="1035">
+            <state line="32" column="0" selection-start="895" selection-end="895" vertical-scroll-proportion="-0.0" vertical-offset="480" max-vertical-offset="1035">
               <folding />
             </state>
           </provider>
@@ -37,7 +42,7 @@
       <file leaf-file-name="BoxMethods.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BoxMethods.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="5" selection-start="1033" selection-end="1033" vertical-scroll-proportion="-22.5" vertical-offset="0" max-vertical-offset="975">
+            <state line="20" column="21" selection-start="600" selection-end="600" vertical-scroll-proportion="-5.0" vertical-offset="180" max-vertical-offset="975">
               <folding />
             </state>
           </provider>
@@ -46,7 +51,7 @@
       <file leaf-file-name="FieldMethods.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FieldMethods.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="21" selection-start="406" selection-end="406" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="780">
+            <state line="6" column="64" selection-start="206" selection-end="206" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="780">
               <folding />
             </state>
           </provider>
@@ -55,7 +60,7 @@
       <file leaf-file-name="GetTokenKeys.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GetTokenKeys.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="0" selection-start="1492" selection-end="1492" vertical-scroll-proportion="-10.75" vertical-offset="522" max-vertical-offset="1395">
+            <state line="25" column="36" selection-start="790" selection-end="790" vertical-scroll-proportion="-15.625" vertical-offset="0" max-vertical-offset="1395">
               <folding />
             </state>
           </provider>
@@ -64,7 +69,7 @@
       <file leaf-file-name="StageMethods.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/StageMethods.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="13" selection-start="457" selection-end="457" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="780">
+            <state line="15" column="0" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="780">
               <folding />
             </state>
           </provider>
@@ -73,7 +78,7 @@
       <file leaf-file-name="StreakClient.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/StreakClient.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="0" selection-start="1056" selection-end="1056" vertical-scroll-proportion="-5.0" vertical-offset="270" max-vertical-offset="1485">
+            <state line="20" column="64" selection-start="772" selection-end="772" vertical-scroll-proportion="13.75" vertical-offset="540" max-vertical-offset="1485">
               <folding />
             </state>
           </provider>
@@ -82,7 +87,19 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="0" selection-start="1094" selection-end="1094" vertical-scroll-proportion="-23.125" vertical-offset="0" max-vertical-offset="645">
+            <state line="24" column="0" selection-start="533" selection-end="533" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="465">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="0" selection-start="1235" selection-end="1235" vertical-scroll-proportion="0.6632653" vertical-offset="0" max-vertical-offset="540">
               <folding />
             </state>
           </provider>
@@ -91,7 +108,7 @@
       <file leaf-file-name="dump.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dump.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="74" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+            <state line="6" column="74" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="180">
               <folding />
             </state>
           </provider>
@@ -118,8 +135,10 @@
         <option value="$PROJECT_DIR$/src/BoxMethods.php" />
         <option value="$PROJECT_DIR$/src/GetTokenKeys.php" />
         <option value="$PROJECT_DIR$/src/StageMethods.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/src/StreakClient.php" />
+        <option value="$PROJECT_DIR$/test/curlRequests.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -130,10 +149,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="Unnamed" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1415" />
+    <option name="x" value="49" />
     <option name="y" value="24" />
-    <option name="width" value="1871" />
-    <option name="height" value="1056" />
+    <option name="width" value="1317" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -218,7 +237,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
   </component>
-  <component name="RunManager" selected="PHP Script.index.php">
+  <component name="RunManager" selected="PHPUnit.curlRequests">
     <configuration default="false" name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/index.php">
       <RunnerSettings RunnerId="PhpRunner" />
       <RunnerSettings RunnerId="PhpScriptDebugRunner" />
@@ -241,6 +260,12 @@
       <ConfigurationWrapper RunnerId="PhpRunner" />
       <method />
     </configuration>
+    <configuration default="false" name="curlRequests" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="test\curlRequests" file="$PROJECT_DIR$/test/curlRequests.php" scope="Class" />
+      <RunnerSettings RunnerId="PhpUnitCoverageRunner" />
+      <ConfigurationWrapper RunnerId="PhpUnitCoverageRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner />
       <method />
@@ -254,18 +279,20 @@
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="PHP Script.index.php" />
       <item index="1" class="java.lang.String" itemvalue="PHP Script.StreakClient.php" />
       <item index="2" class="java.lang.String" itemvalue="PHP Script.testFile.php" />
       <item index="3" class="java.lang.String" itemvalue="PHP Script.GetTokenKeys.php" />
+      <item index="4" class="java.lang.String" itemvalue="PHPUnit.curlRequests" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="PHP Script.index.php" />
-        <item index="1" class="java.lang.String" itemvalue="PHP Script.GetTokenKeys.php" />
-        <item index="2" class="java.lang.String" itemvalue="PHP Script.StreakClient.php" />
-        <item index="3" class="java.lang.String" itemvalue="PHP Script.testFile.php" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="PHPUnit.curlRequests" />
+        <item index="1" class="java.lang.String" itemvalue="PHP Script.index.php" />
+        <item index="2" class="java.lang.String" itemvalue="PHP Script.GetTokenKeys.php" />
+        <item index="3" class="java.lang.String" itemvalue="PHP Script.StreakClient.php" />
+        <item index="4" class="java.lang.String" itemvalue="PHP Script.testFile.php" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -301,20 +328,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1415" y="24" width="1871" height="1056" extended-state="6" />
-    <editor active="false" />
+    <frame x="49" y="24" width="1317" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959914" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35383448" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39979756" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25607288" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2514793" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -322,12 +348,14 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -342,18 +370,18 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39979756" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959914" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25607288" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -375,6 +403,184 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/PipelineMethods.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="0" selection-start="895" selection-end="895" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1035">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BoxMethods.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="21" selection-start="600" selection-end="600" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="975">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FieldMethods.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="21" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0" vertical-offset="177" max-vertical-offset="780">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GetTokenKeys.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="30" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="1395">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StageMethods.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="780">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StreakClient.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="64" selection-start="772" selection-end="772" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="1575">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="533" selection-end="533" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="465">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="690" selection-end="690" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dump.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="74" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="180">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PipelineMethods.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="0" selection-start="895" selection-end="895" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1035">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BoxMethods.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="21" selection-start="600" selection-end="600" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="975">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FieldMethods.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="21" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0" vertical-offset="177" max-vertical-offset="780">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GetTokenKeys.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="32" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="1395">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StageMethods.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="47" selection-start="1094" selection-end="1094" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="780">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StreakClient.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="0" selection-start="1056" selection-end="1056" vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="1575">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="44" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="630">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dump.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="74" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="180">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PipelineMethods.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="33" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1035">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BoxMethods.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="21" selection-start="600" selection-end="600" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="975">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FieldMethods.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="21" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="780">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GetTokenKeys.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="30" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="1395">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StageMethods.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="55" selection-start="873" selection-end="873" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="780">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StreakClient.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="0" selection-start="1056" selection-end="1056" vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="1575">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="0" selection-start="1028" selection-end="1028" vertical-scroll-proportion="0.0" vertical-offset="41" max-vertical-offset="630">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dump.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="74" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="180">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/PipelineMethods.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="44" selection-start="616" selection-end="616" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1050">
@@ -461,70 +667,29 @@
     </entry>
     <entry file="file://$USER_HOME$/indix-phpclient/IndixApi.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="49" selection-start="1338" selection-end="1338" vertical-scroll-proportion="-0.39534885" vertical-offset="870" max-vertical-offset="2640">
-          <folding />
-        </state>
+        <state line="41" column="49" selection-start="1338" selection-end="1338" vertical-scroll-proportion="-0.39534885" vertical-offset="870" max-vertical-offset="2640" />
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_5.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1049" column="31" selection-start="30984" selection-end="30984" vertical-scroll-proportion="0.499002" vertical-offset="15485" max-vertical-offset="17265">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/json.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="64" selection-start="2850" selection-end="2850" vertical-scroll-proportion="0.6187625" vertical-offset="995" max-vertical-offset="3345">
-          <folding />
-        </state>
+        <state line="1049" column="31" selection-start="30984" selection-end="30984" vertical-scroll-proportion="0.499002" vertical-offset="15485" max-vertical-offset="17265" />
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/curl_d.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="3" selection-start="1633" selection-end="1633" vertical-scroll-proportion="0.2713568" vertical-offset="648" max-vertical-offset="5760">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BoxMethods.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="5" selection-start="1033" selection-end="1033" vertical-scroll-proportion="-22.5" vertical-offset="0" max-vertical-offset="975">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FieldMethods.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="21" selection-start="406" selection-end="406" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="780">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GetTokenKeys.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="0" selection-start="1492" selection-end="1492" vertical-scroll-proportion="-10.75" vertical-offset="522" max-vertical-offset="1395">
-          <folding />
-        </state>
+        <state line="54" column="3" selection-start="1633" selection-end="1633" vertical-scroll-proportion="0.2713568" vertical-offset="648" max-vertical-offset="5760" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/StageMethods.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="13" selection-start="457" selection-end="457" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="780">
+        <state line="15" column="0" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="780">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/StreakClient.php">
+    <entry file="file://$PROJECT_DIR$/src/PipelineMethods.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="1056" selection-end="1056" vertical-scroll-proportion="-5.0" vertical-offset="270" max-vertical-offset="1485">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="1094" selection-end="1094" vertical-scroll-proportion="-23.125" vertical-offset="0" max-vertical-offset="645">
+        <state line="32" column="0" selection-start="895" selection-end="895" vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="1035">
           <folding />
         </state>
       </provider>
@@ -536,9 +701,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PipelineMethods.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="33" selection-start="470" selection-end="470" vertical-scroll-proportion="0.27214515" vertical-offset="0" max-vertical-offset="1035">
+        <state line="24" column="0" selection-start="533" selection-end="533" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="465">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StreakClient.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="64" selection-start="772" selection-end="772" vertical-scroll-proportion="13.75" vertical-offset="540" max-vertical-offset="1485">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BoxMethods.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="21" selection-start="600" selection-end="600" vertical-scroll-proportion="-5.0" vertical-offset="180" max-vertical-offset="975">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FieldMethods.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="64" selection-start="206" selection-end="206" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="780">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/json.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="9" selection-start="2588" selection-end="2588" vertical-scroll-proportion="0.57048094" vertical-offset="871" max-vertical-offset="3345">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GetTokenKeys.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="36" selection-start="790" selection-end="790" vertical-scroll-proportion="-15.625" vertical-offset="0" max-vertical-offset="1395">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="1235" selection-end="1235" vertical-scroll-proportion="0.6632653" vertical-offset="0" max-vertical-offset="540">
           <folding />
         </state>
       </provider>

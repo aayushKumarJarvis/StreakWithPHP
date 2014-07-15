@@ -2,13 +2,29 @@ StreakClientPHP
 ===============
 A PHP Based Client for Streak (https://www.streak.com).
 
-But thats not all, I read on their blog that these guys don't allow you to apply custom excel formulae in their Spreadsheets. For sure you can't imagine a Spreadsheet without application of custom formulae to it. 
-This client has some hardcoded excel formulae which my boss wants. Still in development phase. 
+Streak is a new GMail Plugin which offers its API services for developers as well. I found no such clients being
+built for it. Here is a PHP implementation of Streak's services. The codebase is made by keeping Functional
+Programming Paradigm in mind. There are implementations for the basic operations in streak's API service.
+Further operations would be added on request.
 
-Development and Usage
-======================
-Made using the Streak API services. Generate your key from there first to setup the project on your machine. 
-Clone the repo. 
-Modify the variable parameter $apiKey with your API Key in the StreakClient.php file in src filder
-Start using it !!
+Usage and Dev Environment
+=========================
+Though Sublime-Text is awesome, but still I prefer using an IDE. Use PHPStorm as it offers super awesome functional
+coding environment, plus it has some very cool navigation features when it comes to handle multiple files and using
+them in one another.
+
+However, before using the client, I would suggest reading the API docs so as to understand the functionality of each
+function.
+
+1. Clone the repository and open the folder in your favorite editor.
+2. Collective Streak Operations for each section is coded in seperate files.
+3. Browse through the /src folder to see the Streak Methods available.
+4. Use the index.php file to write your own USE CASE operations.
+
+Any additions(tests/improvements) are most welcomed.
+
+
+
+
+
 

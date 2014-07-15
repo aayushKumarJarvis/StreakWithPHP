@@ -6,29 +6,17 @@ include_once 'src/StageMethods.php';
 include_once 'src/BoxMethods.php';
 
 
-// Creating the Tests for Use Case that I need to solve.
-//echo getAllBoxesFromPipeline(getPipelineKey('newProductDevelopment'));
+/* Start Writing your Use Case Code here. Although I am sure that each and every function is verified and tested.
+But if any function is not working, please do let me know or correct it yourself as per your choice.
 
-function generateTimeStampInBox($pipelineName,$inputDate) {
-    // Get the Stage Change Time Stamp
-    $dataForBox = getSpecificBox(getBoxKey($pipelineName,$inputDate));
-    $stageChangeDuration = $dataForBox['lastStageChangeTimestamp'];
+Remember, this is entirely a backend code with no added UI/UX as it is developed with the intention of preparing a
+playground for the developers,
 
-    // Creating a new Box based on change Timestamp
-    $data = createBox(getPipelineKey($pipelineName),date('Y-m-d H:i:s',$stageChangeDuration/1000));
-    return $data;
-}
+*/
 
-// Function to get the Boxes Time Stamp Data as an Array. Working with the newProductDevelopment Pipeline
-function getStageBoxesTimestampData($stageName) {
 
-    $pipelineName = "newProductDevelopment";
 
-    $stageData = json_decode(getSpecificStage(getPipelineKey($pipelineName),getStageKey($pipelineName,$stageName)),true);
-    
-}
 
- //print_r(getStageBoxesTimestampData("Test Stage"));
 
 
 
