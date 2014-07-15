@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d320a4f-eb7c-4220-a551-2c8a598a0d6a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="1d320a4f-eb7c-4220-a551-2c8a598a0d6a" name="Default" comment="" />
     <ignored path="streakApplication.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -99,7 +95,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="1235" selection-end="1235" vertical-scroll-proportion="0.6632653" vertical-offset="0" max-vertical-offset="540">
+            <state line="30" column="0" selection-start="1239" selection-end="1239" vertical-scroll-proportion="0.7653061" vertical-offset="0" max-vertical-offset="588">
               <folding />
             </state>
           </provider>
@@ -325,12 +321,18 @@
       <created>1404624707874</created>
       <updated>1404624707874</updated>
     </task>
+    <task id="LOCAL-00001" summary="Minor Changes including improved version of README.md">
+      <created>1405445247219</created>
+      <updated>1405445247219</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="49" y="24" width="1317" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -396,6 +398,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Minor Changes including improved version of README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor Changes including improved version of README.md" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -748,7 +752,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="1235" selection-end="1235" vertical-scroll-proportion="0.6632653" vertical-offset="0" max-vertical-offset="540">
+        <state line="30" column="0" selection-start="1239" selection-end="1239" vertical-scroll-proportion="0.7653061" vertical-offset="0" max-vertical-offset="588">
           <folding />
         </state>
       </provider>
