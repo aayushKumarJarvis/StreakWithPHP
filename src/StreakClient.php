@@ -9,9 +9,9 @@
 */
 
     // Constant Parameters that need to be changed
-    define("API_KEY","516572204c584c259617eee0465f6cde");
+    define("API_KEY","********************"); // Your API Key
     define("baseURL","https://www.streak.com/api/v1");
-    define("PASSWORD","monostablene5555");
+    define("PASSWORD","*****************"); // Your GMail Password
 
 
 	// Fucnction to send request to fetch the JSON response.
